@@ -1,0 +1,45 @@
+I am making a game it's a card based game so 
+
+generate 5 cards where you will give balancing stats for each card 
+
+
+your response should follow this format without deviation
+
+[
+    {
+        "name": "name of a monster generate anything",
+        "hp": a base hp, should be a number,
+        "atk": a base atk, should be a number,
+        "element": a element for this unit (fire, water , wind , earth), should be a string,
+        "skill(unique)": "a special skill for this card this should be very very unique and kind of a cheat ability"
+    },
+    {
+        ...
+    }
+]
+
+
+
+
+two peoples are playing a game and in there turn one played this card 
+p1 
+{
+"name": "Storm Phoenix",
+"hp": 1700,
+"atk": 230,
+"element": "wind",
+"skill(unique)": "Thunder Rebirth: Revives with full HP once per game when defeated"
+},
+
+p2
+and the other palyed this card 
+{
+"name": "Terra Golem",
+"hp": 2500,
+"atk": 200,
+"element": "earth",
+"skill(unique)": "Earthen Fortitude: Recovers 20% of max HP at the end of each turn"
+},
+
+
+after two round of playing generate a simulated stats that will be left on in this two cards
